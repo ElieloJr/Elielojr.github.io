@@ -1,17 +1,19 @@
+var corBoxs = "black"
+
 var caixasNivel1 = [
     {
         x: 0,
         y: 50,
         largura: 300,
         altura: 290,
-        color: "black"
+        color: corBoxs
     },
     {
         x: 350,
         y: 0,
         largura: 300,
         altura: 400,
-        color: "black"
+        color: corBoxs
     }
 ]
  
@@ -21,21 +23,21 @@ var caixasNivel2 = [
         y: 0,
         largura: 500,
         altura: 100,
-        color: "black"
+        color: corBoxs
     },
     {
         x: 0,
         y: 150,
         largura: 450,
         altura: 190,
-        color: "black"
+        color: corBoxs
     },
     {
         x: 500,
         y: 0,
         largura: 100,
         altura: 400,
-        color: "black"
+        color: corBoxs
     },
  
 ]
@@ -46,42 +48,42 @@ var caixasNivel3 = [
         y: 50,
         largura: 50,
         altura: 290,
-        color: "black"
+        color: corBoxs
     },
     {
         x: 100,
         y: 0,
         largura: 100,
         altura: 200,
-        color: "black"
+        color: corBoxs
     },
     {
         x: 200,
         y: 0,
         largura: 400,
         altura: 50,
-        color: "black"
+        color: corBoxs
     },
     {
         x: 50,
         y: 250,
         largura: 250,
         altura: 90,
-        color: "black"
+        color: corBoxs
     },
     {
         x: 250,
         y: 100,
         largura: 250,
         altura: 240,
-        color: "black"
+        color: corBoxs
     },
     {
         x: 550,
         y: 50,
         largura: 50,
         altura: 350,
-        color: "black"
+        color: corBoxs
     },
 ]
 
