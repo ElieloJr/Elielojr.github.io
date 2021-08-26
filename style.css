@@ -1,0 +1,28 @@
+body {
+    background: #363636;
+}
+
+h1, h2{
+    text-align: center;
+    font-family: arial;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    margin: 30px;
+}
+
+h2 {
+    background: #55555585;
+    border-radius: 50px;
+    width: 130px;
+    height: 30px;
+    margin: 30px auto;
+    padding: 8px;
+}
+
+canvas {
+    display: block;
+    margin: auto;
+    box-shadow: 2px 2px 10px #000000a4;
+    border-radius: 10px;
+}

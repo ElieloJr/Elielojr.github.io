@@ -23,16 +23,16 @@ function rodaJogo(){
 
     switch(nivelProgresso){
         case 1:
-            desenhaNivel(nivel1)
+            desenhaNivel(nivel1, nivelProgresso)
             break;
         case 2: 
-            desenhaNivel(nivel2)
+            desenhaNivel(nivel2, nivelProgresso)
             break;
         case 3: 
-            desenhaNivel(nivel3)
+            desenhaNivel(nivel3, nivelProgresso)
             break;
         default:
-            desenhaNivel(nivel1)
+            desenhaNivel(nivel1, nivelProgresso)
             nivelProgresso = 1
             break;
     }
