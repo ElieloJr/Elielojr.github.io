@@ -47,14 +47,14 @@ function rodaJogo(){
 }
 
 function comando(evento){
-    if(evento.keyCode == direita){
-        x += 5
-    } else if(evento.keyCode == esquerda){
-        x -= 5
-    } else if(evento.keyCode == cima){
-        y -= 5
-    } else if(evento.keyCode == baixo){
-        y += 5
+    switch (nivelProgresso){
+        case 1: 
+            colisaoNivel1(evento)
+            break;
+        // default:
+        //     colisaoNivel1(evento)
+        //     break;
+
     }
 }
 
