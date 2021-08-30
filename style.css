@@ -10,6 +10,9 @@ h1, h2{
     text-transform: uppercase;
     margin: 30px;
 }
+#jogo {
+    display: inline-flex;
+}
 
 h2 {
     background: #55555585;
@@ -18,6 +21,7 @@ h2 {
     height: 30px;
     margin: 15px auto;
     padding: 8px;
+    /* display:flexbox */
 }
 
 canvas {
