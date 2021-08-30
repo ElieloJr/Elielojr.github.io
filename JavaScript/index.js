@@ -51,9 +51,15 @@ function comando(evento){
         case 1: 
             colisaoNivel1(evento)
             break;
-        // default:
-        //     colisaoNivel1(evento)
-        //     break;
+        case 2: 
+            colisaoNivel2(evento)
+            break;
+        case 3: 
+            colisaoNivel3(evento)
+            break;
+        default:
+            colisaoNivel1(evento)
+            break;
 
     }
 }
