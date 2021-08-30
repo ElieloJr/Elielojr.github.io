@@ -39,3 +39,11 @@ function desenhaNivel(caixasDoNivel, nivel) {
 function escreveNivel(nivel){
     document.querySelector("h2").innerText = `Nível: ${nivel}`
 }
+
+function alertaErro(){
+    document.querySelector("#bateu").play()
+}
+
+function alertaChegada(){
+    document.querySelector("#chegou").play()
+}

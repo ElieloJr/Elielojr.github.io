@@ -38,6 +38,7 @@ function rodaJogo(){
     }
 
     if(x >= 0 && x <= 25 && y >= 360 && y <= 400){
+        alertaChegada()
         alert(`Parabens, nivel ${nivelProgresso} completo`)
         x = 25
         y = 25
