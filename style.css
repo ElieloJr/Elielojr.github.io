@@ -82,5 +82,7 @@ p {
   }
 
   .material-icons-outlined:hover {
-      background: black;
+      background: white;
+      color: #363636;
+      font-weight: bolder;
   }
