@@ -11,9 +11,10 @@ h1 {
     margin: 30px;
 }
 #jogo {
+    position: absolute;
     float: center;
-    /* border: 1px solid white; */
-    margin: 5px 40%;
+    left: 40%;
+    margin: 5px auto;
 }
 
 h2 {
