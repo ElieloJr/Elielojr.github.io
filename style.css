@@ -2,7 +2,7 @@ body {
     background: #363636;
 }
 
-h1, h2{
+h1 {
     text-align: center;
     font-family: arial;
     font-weight: bold;
@@ -11,17 +11,27 @@ h1, h2{
     margin: 30px;
 }
 #jogo {
-    display: inline-flex;
+    float: center;
+    /* border: 1px solid white; */
+    margin: 5px 40%;
 }
 
 h2 {
+    text-align: center;
+    font-family: arial;
+    font-weight: bold;
+    text-transform: uppercase;
+
     background: #55555585;
+    color: white;
+    
     border-radius: 50px;
     width: 130px;
     height: 30px;
-    margin: 5px auto;
+    margin: 10px auto;
     padding: 8px;
-    /* display:flexbox */
+    display: inline-block;
+    
 }
 
 canvas {
@@ -39,3 +49,34 @@ p {
     color: rgb(218, 252, 0);
     margin-bottom: 0;
 }
+
+.material-icons-outlined {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+
+    display: inline-block;
+    background: #55555585;
+    border-radius: 50px;
+
+    margin: 0px 40px;
+
+    width: 45px;
+    height: 40px;
+
+    cursor: pointer;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }

@@ -39,13 +39,17 @@ function rodaJogo(){
 
     if(x >= 0 && x <= 25 && y >= 360 && y <= 400){
         alertaChegada()
-        alert(`Parabens, nivel ${nivelProgresso} completo`)
+        alert(`Parabens, nível ${nivelProgresso} completo`)
         x = 25
         y = 25
         nivelProgresso++
         limpaTela()
     }
 }
+
+document.querySelector("span").addEventListener("click", function(){
+    nivelProgresso = 1
+})
 
 function comando(evento){
     switch (nivelProgresso){
