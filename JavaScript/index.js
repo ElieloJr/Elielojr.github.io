@@ -49,6 +49,8 @@ function rodaJogo(){
 
 document.querySelector("span").addEventListener("click", function(){
     nivelProgresso = 1
+    x = 25
+    y = 25
 })
 
 function comando(evento){
